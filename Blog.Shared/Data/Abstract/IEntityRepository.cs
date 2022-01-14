@@ -12,7 +12,7 @@ namespace Blog.Shared.Data.Abstract
     {
         Task<T> AddAsync(T entity);
         Task<T> UpdateAsync(T entity);
-        Task<T> DeleteAsync(T entity);
+        Task DeleteAsync(T entity);
         Task<T> GetAsync(Expression<Func<T, bool>> filter);
         Task<T> GetByIdAsync(int id);
         Task<List<T>> GetAllAsync(Expression<Func<T, bool>> filter);
