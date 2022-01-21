@@ -9,7 +9,7 @@ namespace Blog.Entities.Concrete
 {
     public class Contact : IEntity
     {
-        public string Adress { get; set; }
+        public string Adres { get; set; }
         public int Tel { get; set; }
         public string Email { get; set; }
         public string YoutubeUrl { get; set; }

@@ -1,4 +1,4 @@
-﻿using Blog.Entity.Concrete;
+﻿using Blog.Entities.Concrete;
 using Blog.Shared.Data.Abstract;
 using System;
 using System.Collections.Generic;

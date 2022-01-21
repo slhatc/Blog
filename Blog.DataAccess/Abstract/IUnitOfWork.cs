@@ -19,6 +19,5 @@ namespace Blog.DataAccess.Abstract
 
         Task<int> SaveAsync();
 
-
     }
 }
