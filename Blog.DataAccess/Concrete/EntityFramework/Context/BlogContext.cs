@@ -13,7 +13,7 @@ namespace Blog.DataAccess.Concrete.EntityFramework.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-5CNQ47G; Database=MyBlog; Trusted Connection=True;"); 
+            optionsBuilder.UseSqlServer("Server=DESKTOP-1ES36VU\\SQLEXPRESS; Database=MyBlog; Integrated Security=True;"); 
         }
 
 

@@ -13,6 +13,7 @@ namespace Blog.DataAccess.Concrete.EntityFramework.Mapping
     {
         public void Configure(EntityTypeBuilder<Contact> builder)
         {
+            builder.HasKey(a => a.Id);
             builder.Property(a => a.Adres).HasMaxLength(100);
             builder.Property(a => a.Email).HasMaxLength(50);
             builder.Property(a => a.Tel).HasMaxLength(11);
